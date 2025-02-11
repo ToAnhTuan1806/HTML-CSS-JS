@@ -1,0 +1,57 @@
+/* Cascading trong CSS */
+ul {
+    background-color: blanchedalmond;
+    color: hotpink;
+}
+
+ul {
+    /* Ghi de lai thoc tinh */
+    background-color: purple;
+}
+
+h1 {
+    background-color: red !important;
+}
+
+div {
+    background-color: blue;
+}
+
+li {
+    color: white;
+}
+
+#second-li {
+    color: pink;
+    background-color: black;
+}
+
+.demo-class {
+    color: yellow;
+    background-color: black;
+}
+
+/* Bộ thuộc tính CSS dùng để tạo kiểu chữ
+font-size: 13px;
+font-weight: bold;
+text-align: center;
+text-decoration: uderline; */
+
+.text-transform {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.frist-content p {
+    color: coral;
+}
+
+#second-content {
+    background-color: red;
+}
+
+.second-content {
+    background-color: blue;
+}

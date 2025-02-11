@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1 {
+    background-color: rgb(232, 224, 224);
+    color: red;
+}
+
+.table1 {
+    border-collapse: collapse;
+    border: 5px solid green;
+    text-align: center;
+    width: 888px;
+}
+
+.code-example {
+    background-color: rgb(211, 211, 211);
+    border-radius: 5px;
+    padding: 15px;  
+    width: 888px;
+}
+
+.in-example {
+    border-left: 5px solid rgb(22, 169, 52); 
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: rgb(123, 196, 14); 
+    color: white; 
+    border: none;  
+
+}
+    
