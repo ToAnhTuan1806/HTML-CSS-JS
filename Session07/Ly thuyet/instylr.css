@@ -1,0 +1,28 @@
+.static div {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 20x;
+    background-color: rgb(53, 53, 211);
+    border: 5px solid black;
+}
+
+.static .middle {
+    background-color: rgb(61, 194, 61);
+    position: static;
+    /* top, left, bottom, right */
+}
+.relative div {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 20x;
+    background-color: rgb(53, 53, 211);
+    border: 5px solid black;
+}
+
+.relative .middle {
+    background-color: rgb(61, 194, 61);
+    position: relative;
+    /* top, left, bottom, right */
+}

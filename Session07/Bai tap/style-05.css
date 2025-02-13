@@ -1,0 +1,103 @@
+* {  
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 16px;  
+}  
+
+body {   
+    background-color: white;  
+}  
+
+h2 {
+    font-size: 25px;
+}
+
+.package-name {  
+    text-align: center;  
+    font-size: 24px;  
+    border: 3px solid #ed243f;  
+    background-color: #ed243f;  
+    color: white;  
+    padding: 20px;  
+    border-top-left-radius: 20px;  
+    border-top-right-radius: 20px;  
+    margin: 60px auto 0;  
+    width: 8cm;  
+}  
+
+img {  
+    position: absolute;  
+    top: 40px;  
+    left: 1000px;   
+    width: 90px;   
+}  
+
+.data-details,  
+.price-details,  
+.internal-network,  
+.external-network,  
+.free-services,  
+.duration {  
+    text-align: center;  
+    width: 8cm;  
+    border-bottom: 2px solid #dcdcdc;  
+    margin: 0 auto;  
+}  
+
+.label {  
+    font-weight: bolder;  
+    color: #696969;  
+    font-size: 20px;  
+}  
+
+.value {  
+    font-weight: bolder;  
+    font-size: 20px;  
+    color: #ff8c00;  
+}  
+
+.usage-info {  
+    text-align: center;  
+    width: 8cm;  
+    margin: 0 auto;  
+    color: #696969;  
+    font-size: 20px;  
+}  
+
+.register-button {  
+    display: block;  
+    width: 8cm;  
+    border: 3px solid #e2253e;  
+    background-color: #e0253e;  
+    color: white;  
+    padding: 15px;  
+    border-radius: 40px;  
+    margin: 15px auto;  
+    font-size: 24px;  
+}  
+
+.details-button {  
+    display: block;  
+    width: 4cm;  
+    border: 3px solid #de2941;  
+    background-color: white;  
+    color: #c0162c;  
+    padding: 10px;  
+    border-radius: 40px;  
+    margin: 10px auto;  
+    font-size: 24px;  
+    font-weight: bold;  
+}  
+
+.package-info {  
+    text-align: center;  
+    box-shadow: 3px 3px 3px 3px #f1f1f1;  
+    width: 9cm;  
+    padding: 10px;  
+    padding-top: 0;  
+    padding-left: 0;  
+    padding-right: 7px;  
+    border-radius: 40px;  
+    background-color: white;  
+    border-left: 3px solid #f1f1f1;  
+    margin: 0 auto;  
+}
