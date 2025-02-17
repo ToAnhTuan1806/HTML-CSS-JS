@@ -1,0 +1,29 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 650px;
+    height: 400px;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container p {
+    background-color: rgb(108, 127, 220);
+    font-size: 25px;
+    width: 150px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    border: none;
+}
