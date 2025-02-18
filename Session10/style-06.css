@@ -1,0 +1,94 @@
+* {  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    box-sizing: border-box;  
+    font-size: 16px;
+    margin: 0;  
+    padding: 0;  
+}  
+
+.container {  
+    width: 1000px;  
+    margin: 20px; 
+    background-color: #f1f3f7; 
+}  
+
+.image-wrapper {  
+    position: relative;  
+}  
+
+.image-wrapper img {  
+    width: 100%;  
+    padding: 20px;  
+}  
+
+.image-wrapper .category-title {  
+    position: absolute;  
+    top: 40px;  
+    left: 60px;  
+    padding: 10px 15px;  
+    border: 1px solid white;  
+    border-radius: 8px;  
+    color: white;  
+}  
+
+.image-wrapper .description {  
+    position: absolute;  
+    bottom: 50px;  
+    left: 60px;  
+    color: white;  
+}  
+
+.image-wrapper .description div {  
+    padding: 10px 0;  
+}  
+
+.image-wrapper .description div:nth-of-type(2) {  
+    font-weight: bold;  
+    font-size: 24px;
+}  
+
+.pagination-nav {  
+    display: flex;  
+    justify-content: flex-end;  
+    margin-right: 30px;  
+}  
+
+.pagination-nav div {  
+    margin: 0 10px;  
+    padding: 10px;  
+    font-size: 18px;  
+    
+}  
+
+.pagination-nav .number-indicator {  
+    background-color: #262626; 
+    border-radius: 100%;  
+}  
+
+.pagination-nav .number-indicator.active {  
+    color: #78797b;
+    background-color: #f1f3f7;
+}  
+
+.pagination-nav .arrow {  
+    color: white;  
+    background-color: #78797b;  
+    border-radius: 3px;  
+}  
+
+.pagination-nav .arrow-right{  
+    color: white;  
+    background-color: #262626;  
+    border-radius: 3px;  
+}  
+
+.pagination-nav .number-indicator {  
+    color: white;  
+    background-color: #262626;  
+    border-radius: 100%;  
+    padding: 10px 15px;  
+}  
+
+.pagination-nav .arrow:last-of-type {  
+    border-radius: 3px;  
+}
