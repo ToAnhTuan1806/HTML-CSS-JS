@@ -1,0 +1,105 @@
+* {  
+    padding: 0;  
+    margin: 0;  
+    font-size: 30px;  
+    color: #86898c;  
+}  
+
+.container {  
+    margin: 20px;  
+}  
+
+header {  
+    height: 100px;  
+    padding: 20px;  
+    line-height: 100px;  
+    text-align: center;  
+    background-color: #b2d6ff;  
+}  
+
+main {  
+    display: flex;  
+    flex-wrap: wrap;  
+}  
+
+.feature1 {  
+    background-color: #f5cf8d;  
+    height: 200px;  
+    line-height: 200px;  
+    text-align: center;  
+    width: 33.33%;  
+}  
+
+.feature2 {  
+    background-color: #c8c6fa;  
+    height: 200px;  
+    line-height: 200px;  
+    text-align: center;  
+    width: 33.33%;  
+}  
+
+.feature3 {  
+    background-color: #f09a9d;  
+    height: 200px;  
+    line-height: 200px;  
+    text-align: center;  
+    width: 33.33%;  
+}  
+
+.signup {  
+    height: 100px;  
+    line-height: 100px;  
+    text-align: center;  
+    background-color: #d7e9fe;  
+    width: 100%;  
+}  
+
+.content {  
+    height: 300px;  
+    line-height: 300px;  
+    text-align: center;  
+    background-color: #ebedf0;  
+    width: 100%;  
+}  
+
+@media screen and (max-width: 1200px) {  
+    .feature1 {  
+        width: 50%;  
+        order: 3;  
+    }  
+    .feature2 {  
+        width: 50%;  
+        order: 5;  
+    }  
+    .feature3 {  
+        width: 50%;  
+        order: 4;  
+    }  
+    .signup {  
+        height: 200px;  
+        line-height: 100px;  
+        width: 50%;  
+        order: 2;  
+    }  
+    .content {  
+        width: 100%;  
+        order: 1;  
+    }  
+}  
+
+@media screen and (max-width: 768px) {  
+    main {  
+        flex-direction: column;  
+    }  
+    .feature1,  
+    .feature2,  
+    .feature3 {  
+        width: 100%;  
+    }  
+    .signup {  
+        height: 200px;  
+        line-height: 100px;  
+        width: 100%;  
+        order: 2;  
+    }  
+}
