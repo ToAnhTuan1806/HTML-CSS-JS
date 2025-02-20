@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 40px;
+    color: rgb(153, 149, 149);
+}
+
+header nav {
+    background-color: #5995db;
+    height: 50px;
+}
+header div {
+    background-color: #b2d6ff;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+} 
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+main .feature {
+    width: 33.33%;
+}
+main .sign-up {
+    width: 100%;
+}
+main div.feature:nth-of-type(1) {
+    background-color: #f5cf8d;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+}
+main div.feature:nth-of-type(2) {
+    background-color: #c8c6fa;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+}
+main div.feature:nth-of-type(3) {
+    background-color: #f09a9d;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+}
+main div.sign-up {
+    background-color: #d7e9fe;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.content-section {
+    background-color: #ebedf0;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+}
+
+.containar {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+        order: 1;
+    }
+    .content-section {
+        order: 2;
+    }
+    main {
+        order: 3;
+    }
+    main .feature,
+    main .sign-up {
+        width: 50%;
+        height: 300px;
+        line-height: 300px;
+    }
+    main .sign-up {
+        order: 1;
+    }
+    main .feature {
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    main > * {
+        width: 100% !important; 
+    }
+}
