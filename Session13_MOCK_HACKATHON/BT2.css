@@ -1,0 +1,213 @@
+:root {
+    /* --bg-color: #0A0A0A;
+    --btn-color:#D3E97A;
+    --heading-color: #FFFFFF; */
+    --text-color: #333333;
+    --primery-font: "Montserrate";
+    --secondary-font: "Poppins";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--secondary-font);
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+
+
+
+
+.desktop-menu-center a {
+    text-decoration: none;
+    color: #000000;
+    margin: 25px;
+}
+.desktop-menu-end a {
+    text-decoration: none;
+    color: #000000;
+    margin: 10px;
+}
+nav {
+    padding: 24px 60px;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav p {
+    font-family: "Montserrat";
+    font-size: 34px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+nav p img {
+    margin-right: 10px;
+}
+nav .desktop-menu-center {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+nav .desktop-menu-end {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+nav .desktop-menu-center, .desktop-menu-end li {
+    list-style-type: none;
+}
+
+
+main {
+    position: relative;
+    width: 100%;
+}
+main img {
+width: 100%;
+}
+main .new-arrival {  
+    position: absolute;  
+    top: 20%;  
+    left: 50%;  
+    background-color: #FFF3E3;
+    padding: 4%;
+    margin-right: 100px;
+    border-radius: 10px;  
+}  
+main .new-arrival h3 {  
+    color: var(--text-color);
+    font-size: 24px;  
+}  
+main .new-arrival-p {  
+    margin: 10px 0; 
+    color: #B88E2F; 
+    font-size: 52px;
+    font-weight: bold;
+}  
+main .new-arrival-l {
+    color: var(--secondary-font);
+    font-size: 18px;
+}
+main .new-arrival button {  
+    background-color:#B88E2F;
+    color: white;  
+    border: none;  
+    padding: 25px 72px;  
+    margin-top: 40px;
+}  
+
+
+.Browse {
+    margin-top: 60px;
+    text-align: center;
+}
+.Browse h3 {
+    font-size: 32px;
+    font-family: var(--secondary-font);
+    color: var(--text-color);
+}
+.Browse p {
+    font-size: 20px;
+    font-family: var(--secondary-font);
+    color: #666666;
+    margin-bottom: 60px;
+}
+.Browse-table {  
+    width: 100%;
+    table-layout: fixed;
+    margin: 0 auto;
+}  
+.Browse-table tr {  
+    display: flex;
+    justify-content: center;
+}  
+.Browse-table td {  
+    padding: 10px; 
+}  
+
+.Browse-table img {  
+    max-width: 100%;
+    height: auto;
+}  
+.Browse-table .image-caption {  
+    margin-top: 15px; 
+    font-size: 24px;
+    color: var(--text-color); 
+    font-weight: bold;  
+    font-family: var(--secondary-font);
+} 
+
+
+.our-products {  
+    margin-top: 60px;  
+    text-align: center;  
+}  
+.our-products h3 {  
+    font-size: 40px;  
+    color: #3A3A3A;  
+    font-weight: bold;  
+    margin-bottom: 30px;
+}  
+.product-cards {  
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 300px; 
+    margin-right: 300px;
+}  
+.product-card {  
+    border-radius: 8px;  
+    text-align: left;  
+    position: relative;  
+    background-color: #F4F5F7;  
+}  
+.product-card img {  
+    width: 100%;  
+    border-radius: 8px 8px 0 0;  
+}  
+.product-info {  
+    padding: 10px;  
+}  
+.price {  
+    font-size: 20px;  
+    font-weight: bold;  
+    color: #3A3A3A;  
+}  
+.original-price {  
+    text-decoration: line-through;  
+    color: #B0B0B0;  
+}  
+.discount {  
+    position: absolute;  
+    top: 10px;  
+    right: 10px;  
+    background-color: #E97171;  
+    color: white;  
+    padding: 5px 10px;  
+    border-radius: 100px;  
+}  
+.new {  
+    position: absolute;  
+    top: 10px;  
+    right: 10px;  
+    background-color: #2EC1AC;  
+    color: white;  
+    padding: 5px 10px;  
+    border-radius: 100px;  
+}  
+.show-more {  
+    margin-top: 40px;  
+    padding: 10px 70px;   
+    color: #B88E2F;   
+    border: 1px solid #B88E2F;
+    background-color: white;
+}  
+.description {  
+    font-size: 16px;  
+    color: #898989;  
+}

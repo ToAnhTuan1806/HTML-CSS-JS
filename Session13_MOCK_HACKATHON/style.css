@@ -1,0 +1,100 @@
+/* tao bien trong css */
+:root {
+    --bg-color: #0A0A0A;
+    --btn-color:#D3E97A;
+    --heading-color: #FFFFFF;
+    --text-color: #C7C7C7;
+    --primery-font: "Bebas Neue";
+    --secondary-font: "Manrope";
+    --corner-radius: 12px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--secondary-font);
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    padding: 24px 60px;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .mobile-menu {
+    display: none;
+}
+nav .logo {
+    font-family: var(--primery-font);
+    font-size: 32px;
+    text-transform: uppercase;
+}
+nav .desktop-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+nav .desktop-menu li {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+    nav .desktop-menu {
+        display: none;
+    }    
+    nav .mobile-menu {
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
+    nav {
+        padding: 24px 16px;
+    }
+}
+
+main {
+    padding: 100px 149px;
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main div h3 {
+    font-size: 100px;
+    font-family: var(--primery-font);
+    color: var(--heading-color);
+}
+main .about {
+    font-size: 18px;
+    font-family: var(--secondary-font);
+}
+main .contact-button {
+    background-color: #D3E97A;
+    color: var(--bg-color);
+    font-weight: bold;
+    border-radius: 100px;
+    padding: 24px ;
+    border: none;
+    
+}
+main .image-button{
+    margin-top: 30px;
+    margin-left: 40px;
+    background-color: transparent;
+    border: none;
+}
+
+
+main .image-man img {
+    width: 100%;
+}
