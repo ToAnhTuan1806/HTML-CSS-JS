@@ -1,21 +1,16 @@
 let input = prompt("Nhập dãy số bất kỳ");  
 
-let arr = input.split("");  
-let max = parseInt(arr[0]);  
-let check = true;  
+if (isNaN(input)) { 
+  console.log(`Dãy không hợp lệ`); 
+} else {
+  let input2 = input.split(""); 
+  let max = 0; 
 
-for (let i=0; i<arr.length; i++) {  
-    let num = parseInt(arr[i]);  
-    if (isNaN(num)) {  
-        check = false;  
-        break;   
-    }  
-    if (num > max) {  
-        max = num;   
-    }  
-}  
-if (check) {  
-    console.log(max + " là số lớn nhất trong dãy số");  
-} else {  
-    console.log("Dãy số không hợp lệ");  
-}  
+  for (let i = 0; i < input2.length - 1; i++) { 
+    if (input2[i + 1] > max) { 
+      max = input2[i + 1]; 
+    }
+  }
+
+  console.log(`${max} là số lớn nhất trong dãy`); 
+}
