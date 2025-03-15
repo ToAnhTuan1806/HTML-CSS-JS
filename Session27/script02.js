@@ -25,9 +25,14 @@ while(input !== 5) {
             findStdByName();
             break;
         case 4:
+            removeStd();
             break;
         case 5:
+            console.log("Thank for using!!!");
             break;
+            default:
+                console.log("Lựa chọn không hợp lệ");
+                break;
     }
 }
 
