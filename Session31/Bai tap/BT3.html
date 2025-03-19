@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {  
+            text-align: left;  
+            padding: 20px;  
+        }
+        .wrapper {
+            width: 500px;
+            padding: 20px;
+            border: 1px solid black;
+        }
+        .container {
+            display: flex; 
+            gap: 10px; 
+            padding: 10px;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+        }
+        .red { background-color: red; }
+        .blue { background-color: blue; }
+        .yellow { background-color: yellow; }
+    </style>
+</head>
+<body>
+    <div class="wrapper" id="main-box">
+        <h1>Change Background Color</h1>
+        <p>Mouse click</p>
+        <div class="container">
+            <div class="box red" onclick="changeColor('red')"></div>
+            <div class="box blue" onclick="changeColor('blue')"></div>
+            <div class="box yellow" onclick="changeColor('yellow')"></div>
+        </div>
+    </div>
+    <script>
+        function changeColor(color) {
+            document.getElementById("main-box").style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>
