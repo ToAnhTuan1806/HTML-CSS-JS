@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>  
+        .container {  
+            position: relative; 
+            width: 300px; 
+        }  
+        input[type="password"], input[type="text"] {  
+            border-radius: 5px;
+            width: 100%; 
+            padding: 10px 40px 10px 10px; 
+            font-size: 16px;  
+            box-sizing: border-box;
+            border: 1px solid #888888;
+       
+        }  
+        #eye {  
+            position: absolute;
+            right: 10px; 
+            top: 30%; 
+            color: #888888;
+        }  
+    </style>  
+</head>
+<body>
+    <div class="container">
+        <input type="password" id="password" placeholder="Enter your password" >
+        <i class="fa-solid fa-eye" id="eye" onclick="convert()"></i>
+    </div>
+
+    <script src="./script01.js"></script>
+</body>
+</html>
