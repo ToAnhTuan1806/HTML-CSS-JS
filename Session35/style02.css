@@ -1,0 +1,115 @@
+body {
+    background: rgb(63,94,251);
+    background: linear-gradient(342deg, rgba(63,94,251,1) 0%, rgba(239,70,252,1) 66%);
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addBookmarkBtn {
+    height: 50px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.bookmarkItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+.deleteBtn {
+    color: white;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.websitesList {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 220px;
+    width: 400px;
+    background-color: white;
+}
+
+.formContainer span {
+    padding: 8px;
+    height: 35px;
+    color: white;
+    background-color: #7b59b0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.closeBtn {
+    background: transparent;
+    border: none;
+    font-weight: 800;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+input {
+    width: 90%;
+    align-self: center;
+    border-radius: 3px;
+    border: 2px solid #7b59b0;
+    padding: 5px;
+}
+label {
+    margin-top: 5px;
+    color: #7b59b0;
+    margin-left: 10px;
+}
+.saveBtn {
+    width: 25%;
+    height: 30px;
+    border: none;
+    background-color: #7b59b0;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.hide {
+    display: none;
+}

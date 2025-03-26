@@ -57,4 +57,4 @@ function checkStorage() {
     }
     renderTasks();
 }
-checkStorage();
+checkStorage()

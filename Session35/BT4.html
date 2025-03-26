@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style04.css">
+</head>
+<body>
+    <body>
+        <h2>Danh sách nhân viên Rikkei</h2>
+        <div class="container">
+            <label for="">Tên nhân viên</label>
+            <input type="text" id="name">
+            <label for="">Chức vụ</label>
+            <input type="text" id="position">
+            <button onclick="addEmployee()">Thêm nhân viên</button>
+        </div>
+    
+        <table>
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Tên</th>
+                    <th>Chức vụ</th>
+                </tr>
+            </thead>
+            <tbody id="employeeTable"></tbody>
+        </table>
+        <div id="pagination">
+            <button onclick="changePage('prev')" id="prevBtn" disabled>Previous</button>
+            <button onclick="changePage(1)" class="page-btn">1</button>
+            <button onclick="changePage(2)" class="page-btn">2</button>
+            <button onclick="changePage(3)" class="page-btn">3</button>
+            <button onclick="changePage('next')" id="nextBtn">Next</button>
+        </div>
+    <script src="./script04.js"></script>
+</body>
+</html>

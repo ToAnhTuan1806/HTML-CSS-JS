@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style05.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>  
+        <h1>Danh mục</h1>  
+        <button id="addCategoryBtn"></i> Thêm mới danh mục</button>  
+    </header>  
+    
+    <section class="add_filter">  
+        <select name="status" id="filterStatus">  
+            <option value="" selected disabled hidden>Trạng thái</option>  
+            <option value="online">Đang hoạt động</option>  
+            <option value="offline">Ngừng hoạt động</option>  
+        </select>  
+        <div class="search-container">  
+            <input type="search" id="search" placeholder="Tìm kiếm danh mục theo tên">  
+            <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>  
+        </div>   
+    </section>  
+
+    <section id="addCategoryModal" class="modal hidden">  
+        <div class="modal-content">  
+            <span class="close" id="closeModal"><i class="fa-solid fa-times"></i></span>  
+            <h2>Thêm mới danh mục</h2>  
+            <label for="categoryId">Mã danh mục</label>  
+            <input type="text" id="categoryId">  
+            <p class="error" id="errorId" style="display: none;">Mã danh mục không được để trống</p>  
+
+            <label for="categoryName">Tên danh mục</label>  
+            <input type="text" id="categoryName">  
+            <p class="error" id="errorName" style="display: none;">Tên danh mục không được để trống</p>  
+
+            <label for="status">Trạng thái</label>  
+            <div>  
+                <input type="radio" name="status" value="online" checked> Đang hoạt động  
+                <input type="radio" name="status" value="offline"> Ngừng hoạt động  
+            </div>  
+
+            <button id="addCategoryConfirm"><i class="fa-solid fa-plus"></i> Thêm</button>  
+            <button id="addCategoryCancel"><i class="fa-solid fa-times"></i> Hủy</button>  
+        </div>  
+    </section>  
+
+    <table class="list">  
+        <thead>  
+            <tr>  
+                <th>Mã danh mục</th>  
+                <th>Tên danh mục</th>  
+                <th>Trạng thái</th>  
+                <th>Chức năng</th>  
+            </tr>  
+        </thead>  
+        <tbody id="categoryList"></tbody>  
+    </table>  
+
+    <script src="./script05.js"></script>
+</body>
+</html>
